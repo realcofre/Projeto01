@@ -14,6 +14,10 @@ html, body{
     font-family: "Open Sans";
 }
 
+.clear{
+    clear: both;
+}
+
 .center{
     width: 1200px;
     margin: 0 auto;
@@ -173,8 +177,9 @@ html, body{
 }
 
 .container-single{
-    float: left;
-    width: 33.333%;
+    display: inline-block;
+    margin-right: -4px;
+    width: 33.3%;
     padding: 30px;
 }
 
@@ -186,4 +191,15 @@ html, body{
 
 .container-single img{
     width: 70px;
+}
+
+.footer{
+    border-top: 4px solid #888888;
+    padding: 20px 0;
+    text-align: center;
+    color: #888;
+}
+
+.footer p {
+    margin-top: 8px;
 }
